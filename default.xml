@@ -8,18 +8,19 @@
 
   <remote name="github" fetch="git://github.com/" />
 
-  <project path="build" name="Amethyst-ROM/android_build" remote="github">
+  <project path="build" name="Gaia-ROM/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="Amethyst-ROM/android_development" revision="gingerbread" remote="github" />
+  <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/bravo" name="Amethyst-ROM/android_device_htc_bravo" remote="github" />
+  <project path="device/htc/bravo" name="Gaia-ROM/android_device_htc_bravo" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -29,7 +30,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="Amethyst-ROM/android_external_busybox" revision="gingerbread" remote="github" />
+  <project path="external/busybox" name="Gaia-ROM/android_external_busybox" revision="gingerbread" remote="github" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
@@ -63,7 +64,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/libc-ext" name="Amethyst-ROM/android_external_libc-ext" revision="gingerbread" remote="github" />
+  <project path="external/libc-ext" name="Gaia-ROM/android_external_libc-ext" revision="gingerbread" remote="github" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
@@ -71,6 +72,7 @@
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
@@ -104,24 +106,23 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="Amethyst-ROM/android_frameworks_base" remote="github" />
+  <project path="frameworks/base" name="Gaia-ROM/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware_legacy" name="Amethyst-ROM/android_hardware_libhardware_legacy" remote="github" />
-  <project path="hardware/msm7k" name="Amethyst-ROM/android_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="Amethyst-ROM/android_hardware_qcom_gps" remote="github" />
+  <project path="hardware/libhardware_legacy" name="Gaia-ROM/android_hardware_libhardware_legacy" remote="github" />
+  <project path="hardware/msm7k" name="Gaia-ROM/android_hardware_msm7k" remote="github" />
+  <project path="hardware/qcom/gps" name="Gaia-ROM/android_hardware_qcom_gps" remote="github" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" revision="gingerbread" remote="github" />
-  <project path="hardware/ril" name="Amethyst-ROM/android_hardware_ril" remote="github" />
+  <project path="hardware/ril" name="Gaia-ROM/android_hardware_ril" remote="github" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="kernel-msm" name="Amethyst-ROM/amethyst-kernel" revision="couttstech-2.6.37-ginger" remote="github" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="Amethyst-ROM/android_packages_apps_Browser" remote="github" />
+  <project path="packages/apps/Browser" name="Gaia-ROM/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -129,7 +130,7 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" revision="gingerbread" remote="github" />
+  <project path="packages/apps/FM" name="Gaia-ROM/android_packages_apps_FM" revision="gingerbread" remote="github" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
@@ -137,17 +138,17 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="Amethyst-ROM/android_packages_apps_Phone" remote="github" />
+  <project path="packages/apps/Phone" name="Gaia-ROM/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Settings" name="Amethyst-ROM/android_packages_apps_Settings" remote="github" />
+  <project path="packages/apps/Settings" name="Gaia-ROM/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" revision="gingerbread" remote="github" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/inputmethods/LatinIME" name="Amethyst-ROM/android_packages_inputmethods_LatinIME" remote="github" />
+  <project path="packages/inputmethods/LatinIME" name="Gaia-ROM/android_packages_inputmethods_LatinIME" remote="github" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="Amethyst-ROM/android_packages_providers_ContactsProvider" remote="github" />
-  <project path="packages/providers/DownloadProvider" name="Amethyst-ROM/android_packages_providers_DownloadProvider" remote="github" />
+  <project path="packages/providers/ContactsProvider" name="Gaia-ROM/android_packages_providers_ContactsProvider" remote="github" />
+  <project path="packages/providers/DownloadProvider" name="Gaia-ROM/android_packages_providers_DownloadProvider" remote="github" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -157,13 +158,13 @@
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" revision="tools_r7" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="Amethyst-ROM/android_system_core" remote="github" />
-  <project path="system/extras" name="Amethyst-ROM/android_system_extras" remote="github" />
+  <project path="system/core" name="Gaia-ROM/android_system_core" remote="github" />
+  <project path="system/extras" name="Gaia-ROM/android_system_extras" remote="github" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
-  <project path="vendor/htc/bravo" name="Amethyst-ROM/android_vendor_htc_bravo" remote="github" />
-  <project path="vendor/amethyst" name="Amethyst-ROM/android_vendor_amethyst" remote="github" />
+  <project path="vendor/htc/bravo" name="Gaia-ROM/android_vendor_htc_bravo" remote="github" />
+  <project path="vendor/amethyst" name="Gaia-ROM/android_vendor_gaia" remote="github" />
 
 </manifest>
