@@ -163,6 +163,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />
   <project path="vendor/htc/bravo" name="Gaia-ROM/android_vendor_htc_bravo" remote="github" />
-  <project path="vendor/amethyst" name="Gaia-ROM/android_vendor_gaia" remote="github" />
+  <project path="vendor/gaia" name="Gaia-ROM/android_vendor_gaia" remote="github" />
 
 </manifest>
